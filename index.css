@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.body {
+   font-family: "Poppins";
+   background-color: #9b9b9b;
+   overflow: hidden;
+}
+
+header {
+   height: 100px;
+}
+
+.header__bar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 30px;
+}
+
+.header__menu {
+   display: flex;
+   list-style: none;
+}
+
+.header__menu li {
+   margin-left: 30px;
+}
+
+.header__menu li:hover {
+   color: #606060;
+}
+
+
+.developer {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.develop__left {
+   width: 500px;
+   height: 208px;
+}
+
+.develop__left p{
+   margin-top: 50px;
+   font-size: 14px;
+}
+
+.develop__left h1{
+   font-size: 44px;
+}
+
+.develop__logo {
+   margin-left: 100px;
+}
+
+.software {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+   height: 400px;
+}
+
+.testing {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 1170px;
+   height: 228px;
+}
+
+.testing__blok {
+   width: 370px;
+   height: 228px;
+}
+
+.testing__blok h2 {
+   font-weight: 600px;
+   font-size: 24px;
+   padding: 20px 0;
+}
+
+.testing__blok p {
+   font-size: 14px;
+   font-weight: 400px;
+   width: 290px;
+}
+
+.port h2 {
+   font-size: 34px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.colection {
+   padding-top: 100px;
+}
+
+.homepage p {
+   padding-top: 30px;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.rebook {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+}
+
+.contackt {
+   margin-top: 100px;
+   width: 342px;
+   height: 430px;
+   text-align: center;
+}
+
+/* .cont {
+   padding-top: 20px; */
+
+   .cont p {
+      font-weight: 400;
+      font-size: 18px;
+      padding: 40px 40px;
+   }
+
+   .cont h2 {
+      font-weight: 600;
+      font-size: 34px;
+   }
+
+   button {
+      padding: 10px 30px;
+      border-radius: 30px;
+      border: solid 0;
+      background-color: black;
+      color: white;
+   }
+
+   .footer__soc {
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 0;
+   }
+
+
+   .like {
+      text-align: center;
+      color: #828282;
+   }
+
+   .like p {
+      font-size: 18px;
+      font-weight: 400;
+   }
+
+.burger__menu{
+   display: none;
+}
+
+
+   @media (max-width:370px) {
+      .header__menu {
+         display: none;
+      }
+
+      .burger__menu {
+         display: block;
+      }
+
+      .portfolio {
+         padding-top: 400px;
+      }
+
+      .testing__blok {
+         width: 300px;
+         height: 228px;
+      }
+
+
+      .colection__img img{
+         width: 315px;
+         height: 170px;
+      }
+
+      .b1,.b2,.b3 {
+         width: 40px;
+         height: 5px;
+         background-color: black;
+         margin: 5px;
+      }
+
+
+      .header__bar {
+         display: flex;
+         justify-content: space-between;
+      }
+
+
+      .develop__left p{
+         width: 315px;
+         font-size: 16px;
+      }
+
+      .develop__left h1{
+         font-size: 34px;
+      }
+
+      .develop__logo {
+         margin: 0;
+      }
+
+      .develop__logo img {
+         width: 296px;
+         height: 367px;
+         text-align: center;
+      }
+   }
+
