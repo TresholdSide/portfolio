@@ -176,7 +176,7 @@ footer {
 }
 
 
-   @media (max-width:370px) {
+   @media (max-width:400px) {
       .header__menu {
          display: none;
       }
